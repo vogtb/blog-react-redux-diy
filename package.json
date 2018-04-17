@@ -1,0 +1,24 @@
+{
+  "name": "blog-react-redux-diy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^2.1.1",
+    "less": "^3.0.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-transition-group": "^2.3.0",
+    "ts-loader": "^4.2.0",
+    "webpack": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production && ./node_modules/less/bin/lessc less/grid.less build/dist/grid.css && ./node_modules/less/bin/lessc less/main.less build/dist/main.css"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "@types/react": "^16.3.5",
+    "@types/react-dom": "^16.0.4",
+    "typescript": "^2.8.1",
+    "webpack-cli": "^2.0.14"
+  }
+}

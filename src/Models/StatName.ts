@@ -1,0 +1,8 @@
+enum StatName {
+  INTERACTION_COUNT = "INTERACTION_COUNT",
+  TIME_ACTIVE = "TIME_ACTIVE",
+  READ_COUNT = "READ_COUNT",
+  WRITE_COUNT = "WRITE_COUNT"
+}
+
+export default StatName;

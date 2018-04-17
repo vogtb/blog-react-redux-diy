@@ -1,0 +1,8 @@
+enum UserOperations {
+  CREATE_USER = "CREATE_USER",
+  UPDATE_FIRST_NAME = "UPDATE_FIRST_NAME",
+  UPDATE_FAMILY_NAME = "UPDATE_FAMILY_NAME",
+  UPDATE_STATUS = "UPDATE_STATUS"
+}
+
+export default UserOperations;
